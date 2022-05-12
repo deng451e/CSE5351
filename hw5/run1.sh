@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+mpicc q1.c 
 for i in {1..100}; do 
     ibrun  -np 2  ./a.out 2  64 >> q1_64.log 
     
